@@ -1,0 +1,2 @@
+package br.ucb.claquete.controller; import br.ucb.claquete.service.AcervoJdbcService;import java.util.*;import org.springframework.web.bind.annotation.*;
+@RestController@RequestMapping("/api/dashboard")public class DashboardController{private final AcervoJdbcService s;public DashboardController(AcervoJdbcService s){this.s=s;}@GetMapping public Map<String,Long> indicadores(){return Map.of("filmes",s.count("FILME"),"avaliacoes",s.count("AVALIACAO"),"plataformas",s.count("PLATAFORMA"),"disponibilidades",s.count("DISPONIBILIDADE"));}}

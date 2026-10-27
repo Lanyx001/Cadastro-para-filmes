@@ -1,0 +1,16 @@
+/Users/joaopedro/Documents/Claquete-Entrega-Atualizada/claquete-backend/src/main/java/br/ucb/claquete/ClaqueteApplication.java
+/Users/joaopedro/Documents/Claquete-Entrega-Atualizada/claquete-backend/src/main/java/br/ucb/claquete/config/SegurancaConfig.java
+/Users/joaopedro/Documents/Claquete-Entrega-Atualizada/claquete-backend/src/main/java/br/ucb/claquete/controller/AvaliacaoController.java
+/Users/joaopedro/Documents/Claquete-Entrega-Atualizada/claquete-backend/src/main/java/br/ucb/claquete/controller/ConsultaRelatorioController.java
+/Users/joaopedro/Documents/Claquete-Entrega-Atualizada/claquete-backend/src/main/java/br/ucb/claquete/controller/CredencialController.java
+/Users/joaopedro/Documents/Claquete-Entrega-Atualizada/claquete-backend/src/main/java/br/ucb/claquete/controller/DashboardController.java
+/Users/joaopedro/Documents/Claquete-Entrega-Atualizada/claquete-backend/src/main/java/br/ucb/claquete/controller/DisponibilidadeController.java
+/Users/joaopedro/Documents/Claquete-Entrega-Atualizada/claquete-backend/src/main/java/br/ucb/claquete/controller/FilmeController.java
+/Users/joaopedro/Documents/Claquete-Entrega-Atualizada/claquete-backend/src/main/java/br/ucb/claquete/controller/PlataformaController.java
+/Users/joaopedro/Documents/Claquete-Entrega-Atualizada/claquete-backend/src/main/java/br/ucb/claquete/exception/ApiError.java
+/Users/joaopedro/Documents/Claquete-Entrega-Atualizada/claquete-backend/src/main/java/br/ucb/claquete/exception/ConflitoException.java
+/Users/joaopedro/Documents/Claquete-Entrega-Atualizada/claquete-backend/src/main/java/br/ucb/claquete/exception/RecursoNaoEncontradoException.java
+/Users/joaopedro/Documents/Claquete-Entrega-Atualizada/claquete-backend/src/main/java/br/ucb/claquete/exception/RequisicaoInvalidaException.java
+/Users/joaopedro/Documents/Claquete-Entrega-Atualizada/claquete-backend/src/main/java/br/ucb/claquete/exception/TratadorDeErros.java
+/Users/joaopedro/Documents/Claquete-Entrega-Atualizada/claquete-backend/src/main/java/br/ucb/claquete/service/AcervoJdbcService.java
+/Users/joaopedro/Documents/Claquete-Entrega-Atualizada/claquete-backend/src/main/java/br/ucb/claquete/service/CredencialService.java

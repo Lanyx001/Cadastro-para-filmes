@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Claquete — Catálogo de Filmes</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="shell">
+    <aside class="side" id="side" aria-label="Menu principal">
+      <div class="logo"><i aria-hidden="true"></i>Claquete</div>
+      <nav class="nav" id="nav"></nav>
+    </aside>
+    <div>
+      <header class="top">
+        <button class="btn sm menu-btn" id="mb" aria-expanded="false" aria-controls="side">☰ Menu</button>
+        <input class="grow" id="search" type="search" aria-label="Pesquisar filmes" placeholder="Pesquisar filmes...">
+        <div class="user" title="Dados persistidos no MySQL"><b aria-hidden="true">DB</b>Acervo MySQL</div>
+      </header>
+      <main id="app" tabindex="-1"></main>
+    </div>
+  </div>
+  <dialog id="dlg">
+    <h3>Excluir este registro?</h3>
+    <p class="hint">A exclusão será enviada ao banco de dados e poderá ser auditada.</p>
+    <form method="dialog" class="dialog-actions">
+      <button class="btn" value="cancelar">Cancelar</button>
+      <button class="btn pri" value="confirmar">Excluir</button>
+    </form>
+  </dialog>
+  <script src="script.js"></script>
+</body>
+</html>
